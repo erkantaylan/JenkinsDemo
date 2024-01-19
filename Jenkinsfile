@@ -9,13 +9,15 @@ pipeline {
 		}
 		stage('Build') {
 			steps {
-				bat "C:/Projects/JenkinsDemo/build.bat"
+				bat "build.bat"
 			}
 		}
-	}
-	stage('Run') {
-		steps {
-			bat "C:/Projects/JenkinsDemo/run.bat"
+		stage('Run') {
+			steps {
+				bat "run.bat"
+			}
 		}
+
+
 	}
 }
