@@ -10,8 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Build Files", "_Build File
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows", "Windows", "{6CA3590A-BC5D-4102-9438-6F0C5B05EF7E}"
 	ProjectSection(SolutionItems) = preProject
-		build.bat = build.bat
-		run.bat = run.bat
+		build.sh = build.sh
+		run.sh = run.sh
 	EndProjectSection
 EndProject
 Global

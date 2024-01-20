@@ -1,8 +1,7 @@
-all:
-	ls
+all: build run
 
-build-windows:
-	cmd /C "built.bat"
+build:
+	bash build.sh
 	
-run-windows:
-	cmd.exe run.bat
+run:
+	bash run.sh
