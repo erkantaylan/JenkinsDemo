@@ -6,9 +6,19 @@ pipeline {
         sh 'make --version'
       }
     }
-    stage('run make') {
+    stage('Build Project') {
       steps {
-        sh 'make'
+        sh 'make build'
+      }
+    }
+    stage('Run Project') {
+      steps {
+        sh 'make run'
+      }
+    }
+    stage('Test Project') {
+      steps {
+        sh 'make test'
       }
     }
   }
