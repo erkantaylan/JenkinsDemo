@@ -5,3 +5,6 @@ build:
 	
 run:
 	bash run.sh
+	
+test:
+	dotnet test
