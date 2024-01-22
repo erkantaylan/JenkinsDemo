@@ -11,14 +11,14 @@ pipeline {
         sh 'make build'
       }
     }
-    stage('Run Project') {
-      steps {
-        sh 'make run'
-      }
-    }
     stage('Test Project') {
       steps {
         sh 'make test'
+      }
+    }
+    stage('Run Project') {
+      steps {
+        sh 'make run'
       }
     }
   }
